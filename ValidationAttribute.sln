@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0BE6EF29-CD66-422D-B294-316AC44BFA53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validation", "src\Validation\Validation.csproj", "{16CCF99E-30B6-4672-9AF6-7F4213E7CE1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16CCF99E-30B6-4672-9AF6-7F4213E7CE1D} = {0BE6EF29-CD66-422D-B294-316AC44BFA53}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16CCF99E-30B6-4672-9AF6-7F4213E7CE1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16CCF99E-30B6-4672-9AF6-7F4213E7CE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16CCF99E-30B6-4672-9AF6-7F4213E7CE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16CCF99E-30B6-4672-9AF6-7F4213E7CE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
