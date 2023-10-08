@@ -2,7 +2,7 @@ name: publish to nuget
 on:
   push:
     branches:
-      - main
+      - main # Default release branch
 jobs:
   publish:
     name: build, pack & publish
@@ -13,13 +13,12 @@ jobs:
       - name: Setup dotnet
         uses: actions/setup-dotnet@v1
         with:
-         dotnet-version: 6.x
+          dotnet-version: 6.0.x
 
       # Publish
       - name: publish on version change
         id: publish_nuget
-        uses: brandedoutcast/publish-nuget@v2
+        uses: alirezanet/publish-nuget@v3.1.0
         with:
-          PROJECT_FILE_PATH: src/H3rm.Validation/H3rm.Validation.csproj 
-          BUILD_CONFIGURATION: Release
+          PROJECT_FILE_PATH: src/H3rm.Validation/H3rm.Validation.csproj
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
