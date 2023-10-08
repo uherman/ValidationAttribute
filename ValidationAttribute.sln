@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0BE6EF29-CD66-422D-B294-316AC44BFA53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validation", "src\Validation\Validation.csproj", "{16CCF99E-30B6-4672-9AF6-7F4213E7CE1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H3rm.Validation", "src\H3rm.Validation\H3rm.Validation.csproj", "{16CCF99E-30B6-4672-9AF6-7F4213E7CE1D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0C557094-C72A-494D-8666-EE3A3F78FB4E}"
 EndProject

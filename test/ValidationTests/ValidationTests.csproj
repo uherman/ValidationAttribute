@@ -22,7 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\Validation\Validation.csproj" />
+      <ProjectReference Include="..\..\src\H3rm.Validation\H3rm.Validation.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-using Validation;
+using H3rm.Validation;
 
 namespace ValidationTests;
 

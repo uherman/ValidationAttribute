@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Validation;
+namespace H3rm.Validation;
 
 /// <summary>
 /// Represents the base class for validation attributes,
