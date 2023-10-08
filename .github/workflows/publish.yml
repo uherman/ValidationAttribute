@@ -20,6 +20,6 @@ jobs:
         id: publish_nuget
         uses: brandedoutcast/publish-nuget@v2
         with:
-          PROJECT_FILE_PATH: src/Validation/Validation.csproj 
+          PROJECT_FILE_PATH: src/H3rm.Validation/H3rm.Validation.csproj 
           BUILD_CONFIGURATION: Release
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
